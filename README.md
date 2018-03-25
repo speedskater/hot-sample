@@ -8,8 +8,8 @@ by calling `ADD_SUBDIRECTORY`.
 
 The sample project itself is contained in the directory '/sample/'.
 It uses:
-    - the single threaded HOT implementation <hot/singlethreaded/HOTSingleThreaded.hpp>
-    - the identity key extractor, which trivially maps a value to itself <idx/contenthelpers/IdentityKeyExtractor.hpp>
+    * the single threaded HOT implementation <hot/singlethreaded/HOTSingleThreaded.hpp>
+    * the identity key extractor, which trivially maps a value to itself <idx/contenthelpers/IdentityKeyExtractor.hpp>
 
 Therefore, the sample links against "hot-single-threaded-lib" and "content-helpers-lib" by calling
 `target_link_libraries(sample hot-single-threaded-lib content-helpers-lib)` in its CMakeLists.txt
